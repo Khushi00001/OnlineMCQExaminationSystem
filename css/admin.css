@@ -1,0 +1,95 @@
+
+#homepage{
+
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column; /* Change flex direction to column */
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px; /* Add margin to separate buttons from heading */
+}
+
+.button {
+  /* Add styling for your button here */
+}
+
+h1 {
+  margin-bottom: 20px; /* Add margin to separate heading from buttons */
+  background-color: #990000; /* Add background color */
+  padding: 10px;
+}
+/* Side Navigation */
+.side-nav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+    padding-top: 60px;
+}
+.side-nav ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 30px;
+}
+.side-nav ul li {
+    margin-bottom: 10px;
+}
+.side-nav ul li a {
+    display: block;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+}
+.side-nav ul li a i {
+    margin-right: 10px;
+}
+.side-nav ul li a:hover {
+    background-color: #990000;
+}
+
+/* Main Content */
+main {
+    margin-left: 200px;
+    padding: 30px;
+}
+
+
+/*view users*/
+
+/* Custom CSS for the table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+table th,
+table td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+
+}
+
+table th {
+  background-color: #990000;
+}
+
+table tr:hover {
+  background-color: #990000;
+}
